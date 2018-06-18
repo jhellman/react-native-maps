@@ -227,7 +227,7 @@
                                         kCGGradientDrawsBeforeStartLocation | kCGGradientDrawsAfterEndLocation
                                         );
             CGGradientRelease(gradient);
-            CGContextResetClip(context);
+//            CGContextResetClip(context);
         }
         else {
             CGContextSetStrokeColorWithColor(context, segment.startColor.CGColor);
